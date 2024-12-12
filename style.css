@@ -93,7 +93,7 @@ img{
 
 .images{
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 48px;
     font-size: 18px;
     color: gray;
@@ -148,7 +148,7 @@ img{
     font-size: 24px;
 }
 
-.subtext_two{
+.subtext_in_two{
     color: #f9faf8;
     font-size: 18px;
 }
