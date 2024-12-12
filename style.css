@@ -1,0 +1,173 @@
+*{
+    font-family: "Roboto", serif;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header{
+    background-color: #1f2937;
+    padding: 8px 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main_one{
+    display: flex;
+    background-color: #1f2937;
+    padding: 80px 160px;
+}
+
+.content{
+    flex: 1 1 200px;
+    align-content: center;
+}
+
+.title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.subtext{
+    margin: 16px 0 16px auto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+}
+
+.img{
+    flex: 1 1 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main_two{
+    padding: 40px 280px 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+}
+
+.text_zero{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    font-size: 18px;
+    color: gray;
+}
+
+.img_one,.img_two,.img_three,.img_four{
+    flex: 1 1 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.round_img{
+    border-radius: 8px;
+}
+
+.main_three{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 320px 60px;
+    text-align: right;
+    gap: 8px;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main_four{
+    padding: 60px 160px;
+}
+
+.ad{
+    background-color: #3882f6;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_two{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.subtext_two{
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.button_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    border-color: white;
+    padding: 8px 16px;
+}
+
+.footer{
+    background-color: #1f2937;
+    font-size: 18px;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 24px 0;
+}
